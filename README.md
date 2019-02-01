@@ -1,4 +1,4 @@
-# observableObj
+# Observable Object
 Observe a javascript object and react when property changes.
 
 # Install  
