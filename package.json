@@ -1,19 +1,18 @@
 {
-  "name": "infinite-looper",
-  "version": "1.0.5",
-  "description": "loop in non-blocking way infinitely",
+  "name": "reactiveobj",
+  "version": "1.0.1",
+  "description": "Watch an object and react if a property changes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "browserify index-module.js -t babelify -o index.js -s InfiniteLooper"
+    "prepublish": "browserify index-module.js -t babelify -o index.js -s Observable"
   },
   "keywords": [
-    "event-loop",
-    "setTimeout",
-    "asynchronous",
-    "non-blocking"
+    "observer",
+    "reactive",
+    "observer-pattern"
   ],
-  "repository": "https://github.com/mukesh-urbanpiper/infinite-looper",
+  "repository": "https://github.com/mukesh-urbanpiper/observableObj",
   "author": "Mukesh",
   "license": "ISC",
   "devDependencies": {
