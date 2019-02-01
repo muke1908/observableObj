@@ -7,6 +7,7 @@ Observe a javascript object and react when property changes.
 ## Usage  
 
 ```
+import Observable from 'reactiveobj';  
 var t = {
     score:0
 }
