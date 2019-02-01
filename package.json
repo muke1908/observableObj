@@ -1,0 +1,24 @@
+{
+  "name": "infinite-looper",
+  "version": "1.0.5",
+  "description": "loop in non-blocking way infinitely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "browserify index-module.js -t babelify -o index.js -s InfiniteLooper"
+  },
+  "keywords": [
+    "event-loop",
+    "setTimeout",
+    "asynchronous",
+    "non-blocking"
+  ],
+  "repository": "https://github.com/mukesh-urbanpiper/infinite-looper",
+  "author": "Mukesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babelify": "^10.0.0"
+  }
+}
