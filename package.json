@@ -1,6 +1,6 @@
 {
   "name": "reactiveobj",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Watch an object and react if a property changes",
   "main": "index.js",
   "scripts": {
